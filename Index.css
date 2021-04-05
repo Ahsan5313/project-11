@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+heml{
+    scroll-behavior: smooth;
+}
+header{
+    width: 100%;
+    height: 140px;
+    padding: 0;
+    background-image: linear-gradient(to left,#a2a2a2, #f4f4f4);
+    text-align: center;
+    
+}
+.imagehead{
+    margin: 5px;
+    padding: 10px 5px;
+}
+img{
+    width: 120px;
+    height: 120px;
+   float: left;
+   border-radius: 50%;
+  
+  
+
+
+}
+ul{
+    list-style: none;
+    float: right;
+  
+}
+ul li{
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+}
+ul li a{
+    text-decoration: none;
+    margin-right: 7px;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: aqua;
+    color: white;
+    opacity: .5px;
+    padding: 10px 5px;
+    line-height: 70px;
+    border-radius: 7px;
+    transition: 1s;
+}
+ul li a:hover{
+         background-color: teal;
+         border-radius: 7px;
+         transform: scale(1.5);
+         color: red;
+        
+}
+header::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*header end here*/
+
+/*main start from here*/
+
+.main_of_img{
+    width: 100%;
+    height: 90vh;
+
+   
+}
+._for_img_to{
+    padding: 10px;
+    height: 100%;
+   
+   
+}
+._for_img_to{
+    background-image: url("photo-1542744095-291d1f67b221.jpg");
+    background-position: center;
+    background-repeat: inherit;
+    background-size: cover;
+    margin: 5px 20px;
+    position: relative;
+}
+._for_img_to h1{
+    position: absolute;
+    top:55vh;
+   left: 850px;
+   font-size: 50px;
+   text-transform: uppercase;
+   font-family: Arial, Helvetica, sans-serif;
+   text-shadow: 5px 5px 2px black;
+
+}
+._for_img_to p{
+    position: absolute;
+    top:64vh;
+    left: 800px;
+    
+}
+.servises{
+    width: 100%;
+    height: 130px;
+    background-image: linear-gradient(#a2a2a2, #f4f4f4);
+    margin: 5px 0;
+
+
+}
+.servises h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.servises p{
+    padding: 15px;
+    text-align: center;
+    font-size: 17px;
+}
+
+/*card start here*/
+
+.card{
+    width: 100%;
+    height: 400px;
+    margin-top:15px;
+    padding: 5px;
+    margin: 5px;
+    
+    
+   
+   
+   
+    
+}
+.card_div{
+    width: 25%;
+    height: 100%;
+    background-color: grey;
+    box-shadow: 6px 12px 4px black;
+    float: left;
+   
+    
+    
+
+}
+.card h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    
+    
+}
+.card_div{
+    background-image: url("bargar.jpg");
+    
+}
+
+.card_div1{
+    width: 25%;
+    height: 100%;
+    background-color: grey;
+    box-shadow: 6px 12px 4px black;
+    float: left;
+   
+    
+    
+
+}
+.card h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    
+    
+}
+.card_div1{
+    background-image: url("bargar.jpg");
+    
+}
+.card_div2{
+    width: 25%;
+    height: 100%;
+    background-color: grey;
+    box-shadow: 6px 12px 4px black;
+    float: left;
+    
+    
+
+}
+.card h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    
+    
+}
+.card_div2{
+    background-image: url("bargar.jpg");
+    
+}
+.card_div3{
+    width: 25%;
+    height: 100%;
+    background-color: grey;
+    box-shadow: 6px 12px 4px black;
+    float: left;
+    
+    
+
+}
+.card h1{
+    text-align: center;
+    text-transform: uppercase;
+    background-color: cadetblue;
+    
+    
+}
+.card_div3{
+    background-image: url("bargar.jpg");
+    
+}
+.card::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/*card end here*/
+
+
+
+/*main end here*/
+
+footer{
+    width: 100%;
+    height: 60px;
+    background-color: black;
+    margin: 10px 0;
+}
+.all_copy{
+    color: white;
+    text-align: center;
+    line-height: 60px;
+    font-size: 25px;
+    text-transform: uppercase;
+    word-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 1px white;
+}
